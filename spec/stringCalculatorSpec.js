@@ -19,8 +19,6 @@ describe("add",  function(){
     });
 
     it("should return the sum of an unknown amount of numbers", function(){
-        // let sum = add("1, 3, 5, 7");
-        // expect(sum).toBe(16);
       randomArray = (length, max) => [...new Array(length)]
       .map(() => Math.round(Math.random() * max));
       randy = Math.floor((Math.random() * 100) + 1);

@@ -1,27 +1,7 @@
-// function add(string_number){
-    
-
-//     if (string_numbers == "") 
-//     return 0;}
-
-       let sum = 0;
-//     const individual_numbers = numbers.split(/[,\n]/);
-//     individual_numbers.forEach(element => {
-//       const num = parseInt(element);
-//       if (!isNaN(num)) {
-//         result = result + num;
-//       }
-//     });
-  
-//     return result;
-  
-// }
-
-
 function add(){
-}
 add.prototype.add = function(string_numbers) {
-  this.number = string_numbers;
+  
+this.number = string_numbers;
   if (this.number.includes('-')) {
     throw new Error('negatives not allowed');
   }
@@ -40,4 +20,7 @@ add.prototype.add = function(string_numbers) {
       }
       return total;   
   }
-};
+}
+};  console.log(add(2,5));
+
+
